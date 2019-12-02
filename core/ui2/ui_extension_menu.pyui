@@ -1,0 +1,54 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+          {
+            "nodes" : [
+
+            ],
+            "frame" : "{{6, 6}, {292, 419}}",
+            "class" : "TableView",
+            "attributes" : {
+              "flex" : "WH",
+              "data_source_items" : "IPA安装\nshu- - （直链下载）\n转存文件",
+              "name" : "extension_menu",
+              "frame" : "{{60, 60}, {200, 200}}",
+              "data_source_number_of_lines" : 1,
+              "class" : "TableView",
+              "uuid" : "0F48804F-2AA4-4A56-A007-0799339A72C0",
+              "background_color" : "RGBA(1.0, 1.0, 1.0, 1.0)",
+              "data_source_delete_enabled" : true,
+              "row_height" : 44,
+              "data_source_font_size" : 18
+            },
+            "selected" : true
+          }
+        ],
+        "frame" : "{{0, 6}, {296, 436}}",
+        "class" : "ScrollView",
+        "attributes" : {
+          "flex" : "WH",
+          "frame" : "{{-36, -3}, {320, 320}}",
+          "uuid" : "874B1843-6A3E-43FB-A24C-A8EE7F295AEB",
+          "content_height" : 431,
+          "class" : "ScrollView",
+          "content_width" : 306,
+          "name" : "可选操作"
+        },
+        "selected" : true
+      }
+    ],
+    "frame" : "{{0, 0}, {308, 445}}",
+    "class" : "View",
+    "attributes" : {
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "name" : "功能列表",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]

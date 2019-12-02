@@ -1,0 +1,127 @@
+{
+  "version": "1.0.2",
+  "btn-h": 54,
+  "btn-c": 3,
+  "ibtns": [
+    {
+      "title": "微信",
+      "id": "weixin",
+      "oper": "open_app",
+      "oper_param": "weixin://",
+      "color": "#fcfcfc",
+      "icon": "iob:chatbubbles_24"
+    },
+    {
+      "title": "pythonista",
+      "id": "pythonista",
+      "oper": "open_app",
+      "oper_param": "pythonista3://",
+      "color": "#fcfcfc",
+      "icon": "iob:chatbubbles_24"
+    },
+    {
+      "title": "telegram",
+      "id": "telegram",
+      "oper": "open_app",
+      "oper_param": "telegram://",
+      "color": "#fcfcfc",
+      "icon": "iob:flag_24"
+    },
+    {
+      "title": "追书神器",
+      "id": "zssq",
+      "oper": "open_script",
+      "oper_param": "ex/zssq.py",
+      "color": "#fcfcfc",
+      "icon": "iob:bookmark_24"
+    },
+    {
+      "title": "手输字典",
+      "id": "dicklook",
+      "oper": "open_script",
+      "oper_param": "ex/dictlook",
+      "color": "#fcfcfc",
+      "icon": "iob:clipboard_24"
+    },
+    {
+      "title": "快查词典",
+      "id": "quickdicklook",
+      "oper": "open_script",
+      "oper_param": "ex/dictlook|quick",
+      "color": "#fcfcfc",
+      "icon": "iob:arrow_right_a_24"
+    },
+    {
+      "title": "直链下载",
+      "id": "download",
+      "oper": "open_script",
+      "oper_param": "ex/ppcxy_down",
+      "color": "#fcfcfc",
+      "icon": "iob:code_download_24"
+    },
+    {
+      "title": "m3u8下载",
+      "id": "",
+      "oper": "open_script",
+      "oper_param": "ex/ppcxydow4m3u8-multi4ios-v8.9.1",
+      "color": "aliceblue",
+      "icon": "iob:arrow_down_a_24"
+    },
+    {
+      "title": "白板",
+      "id": "weixin",
+      "oper": "open_script",
+      "oper_param": "ex/sketch_app",
+      "color": "#fcfcfc",
+      "icon": "iob:image_24"
+    },
+    {
+      "title": "快速录音",
+      "id": "lu",
+      "oper": "open_script",
+      "oper_param": "ex/audiorecorder",
+      "color": "#fcfcfc",
+      "icon": "iob:chatbox_working_24"
+    },
+    {
+      "title": "RSS",
+      "id": "rss",
+      "oper": "open_script",
+      "oper_param": "ex/rss",
+      "color": "#fcfcfc",
+      "icon": "iob:social_rss_24"
+    },
+    {
+      "title": "安装器",
+      "id": "launch_stash.py",
+      "oper": "open_script",
+      "oper_param": "ex/launch_stash.py",
+      "color": "#fcfcfc",
+      "icon": "iob:arrow_expand_24"
+    },
+    {
+      "title": "商店设定",
+      "id": "pystore.py",
+      "oper": "open_script",
+      "oper_param": "ex/pystore.py",
+      "color": "#fcfcfc",
+      "icon": "iob:settings_24"
+    },
+    {
+      "title": "重启",
+      "id": "restart",
+      "oper": "restart",
+      "oper_param": "",
+      "color": "#fcfcfc",
+      "icon": "iow:ios7_reload_24"
+    },
+    {
+      "title": "使用帮助",
+      "id": "help",
+      "oper": "open_script",
+      "oper_param": "ex/show_help",
+      "color": "#fcfcfc",
+      "icon": "iob:ios7_help_outline_24"
+    }
+  ]
+}

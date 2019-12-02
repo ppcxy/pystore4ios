@@ -1,0 +1,481 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{64, 6}, {279, 35}}",
+        "class" : "TextField",
+        "attributes" : {
+          "placeholder" : "输入行高（数字）",
+          "flex" : "W",
+          "name" : "rh",
+          "frame" : "{{75, 241}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "D425F5F5-B248-478A-92E1-779D6D2054CF",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "font_size" : 17,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 6}, {58, 35}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "row_label",
+          "frame" : "{{100, 241}, {150, 32}}",
+          "uuid" : "CCBD78FF-A95B-415E-BA0E-6BD692651FEC",
+          "class" : "Label",
+          "alignment" : "right",
+          "text" : "行高：",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 52}, {58, 35}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "col_label",
+          "frame" : "{{100, 241}, {150, 32}}",
+          "uuid" : "A55E22BD-8E2D-4FED-BACA-047AA31E648B",
+          "class" : "Label",
+          "alignment" : "right",
+          "text" : "列数：",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{64, 52}, {279, 35}}",
+        "class" : "TextField",
+        "attributes" : {
+          "uuid" : "0B22E3BE-283B-4548-8E82-E795F01CFF19",
+          "flex" : "WR",
+          "frame" : "{{75, 241}, {200, 32}}",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "text" : "",
+          "placeholder" : "请输入单行列数（数字）",
+          "font_name" : "<System>",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "name" : "cc",
+          "font_size" : 17
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{9, 134}, {334, 373}}",
+        "class" : "TableView",
+        "attributes" : {
+          "uuid" : "CBCCFF14-8A04-45BE-9D41-11C22C65C821",
+          "editing" : false,
+          "corner_radius" : 5,
+          "background_color" : "RGBA(1.0, 1.0, 1.0, 1.0)",
+          "frame" : "{{75, 157}, {200, 200}}",
+          "data_source_items" : "内置\n自定义\n",
+          "data_source_number_of_lines" : 10,
+          "border_width" : 1,
+          "border_color" : "RGBA(0.923221,0.923221,0.923221,1.000000)",
+          "data_source_move_enabled" : true,
+          "data_source_delete_enabled" : true,
+          "data_source_font_size" : 18,
+          "row_height" : 44,
+          "class" : "TableView",
+          "name" : "data_table",
+          "flex" : "WH"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{175, 95}, {80, 35}}",
+        "class" : "Button",
+        "attributes" : {
+          "border_width" : 1,
+          "flex" : "L",
+          "action" : "edit",
+          "frame" : "{{135, 241}, {80, 32}}",
+          "title" : "编辑\/取消",
+          "uuid" : "52AA21E2-DFDB-4876-9473-F5245F50C6A5",
+          "class" : "Button",
+          "corner_radius" : 2,
+          "name" : "edit",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{87, 95}, {80, 35}}",
+        "class" : "Button",
+        "attributes" : {
+          "border_width" : 1,
+          "flex" : "L",
+          "action" : "add_ex",
+          "frame" : "{{135, 241}, {80, 32}}",
+          "title" : "添加按钮",
+          "uuid" : "D5EEA25D-B05B-493D-96E0-6E7B5C2D8D41",
+          "class" : "Button",
+          "corner_radius" : 2,
+          "name" : "add_ex",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{263, 95}, {80, 35}}",
+        "class" : "Button",
+        "attributes" : {
+          "flex" : "L",
+          "border_width" : 1,
+          "action" : "save_config",
+          "frame" : "{{135, 241}, {80, 32}}",
+          "title" : "保存设定",
+          "uuid" : "E989DFD6-1754-469A-89C6-E955F332FEF7",
+          "class" : "Button",
+          "corner_radius" : 2,
+          "name" : "btn_save",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+          {
+            "nodes" : [
+
+            ],
+            "frame" : "{{6, 91}, {90, 32}}",
+            "class" : "TextField",
+            "attributes" : {
+              "placeholder" : "背景颜色",
+              "flex" : "WR",
+              "name" : "color",
+              "frame" : "{{41, 121}, {200, 32}}",
+              "spellchecking_type" : "default",
+              "class" : "TextField",
+              "uuid" : "C0738A88-E80B-4493-AA28-1D29D9375134",
+              "alignment" : "left",
+              "autocorrection_type" : "default",
+              "font_size" : 17,
+              "font_name" : "<System>"
+            },
+            "selected" : false
+          },
+          {
+            "nodes" : [
+
+            ],
+            "frame" : "{{6, 51}, {166, 32}}",
+            "class" : "TextField",
+            "attributes" : {
+              "placeholder" : "请输入显示名",
+              "flex" : "",
+              "name" : "title",
+              "frame" : "{{41, 121}, {200, 32}}",
+              "spellchecking_type" : "default",
+              "class" : "TextField",
+              "uuid" : "5402A7B1-328D-422A-8E40-4F21B277A96F",
+              "alignment" : "left",
+              "autocorrection_type" : "default",
+              "font_size" : 17,
+              "font_name" : "<System>"
+            },
+            "selected" : false
+          },
+          {
+            "nodes" : [
+
+            ],
+            "frame" : "{{167, 52}, {90, 32}}",
+            "class" : "TextField",
+            "attributes" : {
+              "placeholder" : "图标",
+              "flex" : "WL",
+              "name" : "icon",
+              "frame" : "{{41, 121}, {200, 32}}",
+              "spellchecking_type" : "default",
+              "class" : "TextField",
+              "uuid" : "C116CABB-105B-4707-8E84-55508C5F441F",
+              "alignment" : "left",
+              "autocorrection_type" : "default",
+              "font_size" : 17,
+              "font_name" : "<System>"
+            },
+            "selected" : false
+          },
+          {
+            "nodes" : [
+
+            ],
+            "frame" : "{{0, 0}, {338, 32}}",
+            "class" : "Label",
+            "attributes" : {
+              "flex" : "W",
+              "name" : "title",
+              "frame" : "{{66, 121}, {150, 32}}",
+              "uuid" : "3D2B014D-787F-4F10-994B-034A85A99481",
+              "class" : "Label",
+              "alignment" : "center",
+              "text" : "按钮信息",
+              "font_size" : 20,
+              "font_name" : "<System>"
+            },
+            "selected" : false
+          },
+          {
+            "nodes" : [
+
+            ],
+            "frame" : "{{220, 219}, {112, 51}}",
+            "class" : "Button",
+            "attributes" : {
+              "border_width" : 1,
+              "action" : "tcc_action",
+              "flex" : "L",
+              "frame" : "{{111, 154}, {80, 32}}",
+              "title" : "确定",
+              "uuid" : "8D052C76-244C-40D8-B66B-30759B08A753",
+              "class" : "Button",
+              "corner_radius" : 3,
+              "name" : "ok",
+              "font_size" : 15
+            },
+            "selected" : false
+          },
+          {
+            "nodes" : [
+
+            ],
+            "frame" : "{{101, 219}, {111, 51}}",
+            "class" : "Button",
+            "attributes" : {
+              "action" : "tcc_action",
+              "border_width" : 1,
+              "flex" : "L",
+              "frame" : "{{119, 129}, {80, 32}}",
+              "title" : "取消",
+              "uuid" : "53B3D77F-1228-4C2B-9BA1-EA58423E1986",
+              "class" : "Button",
+              "corner_radius" : 3,
+              "name" : "tcquxiao",
+              "font_size" : 15
+            },
+            "selected" : false
+          },
+          {
+            "nodes" : [
+
+            ],
+            "frame" : "{{6, 208}, {326, 293}}",
+            "class" : "View",
+            "attributes" : {
+              "flex" : "WH",
+              "frame" : "{{122, 204}, {100, 100}}",
+              "alpha" : 0,
+              "class" : "View",
+              "name" : "selecter_v",
+              "uuid" : "6351AAD3-C17B-44B1-B903-BD9EA03879C4"
+            },
+            "selected" : true
+          },
+          {
+            "nodes" : [
+
+            ],
+            "frame" : "{{92, 91}, {80, 32}}",
+            "class" : "Button",
+            "attributes" : {
+              "uuid" : "8330E628-1BF3-4759-9726-ED2E5B38B2A4",
+              "font_size" : 15,
+              "corner_radius" : 0,
+              "background_color" : "RGBA(0.269231,0.478022,1.000000,1.000000)",
+              "frame" : "{{132, 238}, {80, 32}}",
+              "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+              "border_width" : 1,
+              "border_color" : "RGBA(0.270815,0.444911,0.880150,1.000000)",
+              "title" : "选择",
+              "action" : "selecter",
+              "alpha" : 1,
+              "class" : "Button",
+              "name" : "btn_color",
+              "flex" : "R"
+            },
+            "selected" : false
+          },
+          {
+            "nodes" : [
+
+            ],
+            "frame" : "{{252, 51}, {80, 33}}",
+            "class" : "Button",
+            "attributes" : {
+              "action" : "selecter",
+              "flex" : "L",
+              "frame" : "{{132, 238}, {80, 32}}",
+              "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+              "title" : "选择",
+              "uuid" : "A753A1B2-CA57-4E44-B326-0DAB3746B86F",
+              "class" : "Button",
+              "background_color" : "RGBA(0.269231,0.478022,1.000000,1.000000)",
+              "border_color" : "RGBA(0.926966,0.926966,0.926966,1.000000)",
+              "name" : "btn_icon",
+              "font_size" : 15
+            },
+            "selected" : false
+          },
+          {
+            "nodes" : [
+
+            ],
+            "frame" : "{{6, 131}, {326, 29}}",
+            "class" : "SegmentedControl",
+            "attributes" : {
+              "name" : "btn_add_type",
+              "frame" : "{{109, 239}, {120, 29}}",
+              "uuid" : "5E5F5001-B677-472A-B07C-6CABB73B3397",
+              "class" : "SegmentedControl",
+              "segments" : "内部脚本|外部脚本|其他程序",
+              "flex" : "W"
+            },
+            "selected" : false
+          },
+          {
+            "nodes" : [
+
+            ],
+            "frame" : "{{167, 92}, {90, 31}}",
+            "class" : "TextField",
+            "attributes" : {
+              "placeholder" : "文字颜色",
+              "flex" : "WL",
+              "font_size" : 17,
+              "frame" : "{{69, 238}, {200, 32}}",
+              "spellchecking_type" : "default",
+              "class" : "TextField",
+              "uuid" : "E66980FD-B6BB-48CF-B246-CC2AAD5F45C2",
+              "alignment" : "left",
+              "autocorrection_type" : "default",
+              "name" : "t_font_color",
+              "font_name" : "<System>"
+            },
+            "selected" : false
+          },
+          {
+            "nodes" : [
+
+            ],
+            "frame" : "{{252, 92}, {80, 31}}",
+            "class" : "Button",
+            "attributes" : {
+              "flex" : "L",
+              "action" : "selecter",
+              "frame" : "{{129, 238}, {80, 32}}",
+              "tint_color" : "RGBA(0.983146,0.983146,0.983146,1.000000)",
+              "title" : "选择",
+              "uuid" : "125F03D1-DA5C-4AE6-B4E0-8B559C170D90",
+              "background_color" : "RGBA(0.269231,0.478022,1.000000,1.000000)",
+              "class" : "Button",
+              "name" : "btn_font_color",
+              "font_size" : 15
+            },
+            "selected" : false
+          },
+          {
+            "nodes" : [
+
+            ],
+            "frame" : "{{252, 168}, {80, 32}}",
+            "class" : "Button",
+            "attributes" : {
+              "flex" : "L",
+              "action" : "add_jb",
+              "frame" : "{{129, 238}, {80, 32}}",
+              "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+              "title" : "选取",
+              "uuid" : "8309AF9F-7F59-44C6-8265-A0F2468CEC35",
+              "background_color" : "RGBA(0.291667,0.494048,1.000000,1.000000)",
+              "class" : "Button",
+              "name" : "btn_jb",
+              "font_size" : 15
+            },
+            "selected" : false
+          },
+          {
+            "nodes" : [
+
+            ],
+            "frame" : "{{6, 168}, {251, 32}}",
+            "class" : "TextField",
+            "attributes" : {
+              "flex" : "WR",
+              "placeholder" : "请选择脚本或输入url",
+              "font_size" : 17,
+              "frame" : "{{69, 238}, {200, 32}}",
+              "spellchecking_type" : "default",
+              "class" : "TextField",
+              "uuid" : "2AFF0CD2-3579-46E7-9137-2D7B9ADFC976",
+              "alignment" : "left",
+              "autocorrection_type" : "default",
+              "name" : "t_open_param",
+              "font_name" : "<System>"
+            },
+            "selected" : false
+          }
+        ],
+        "frame" : "{{5, 0}, {338, 507}}",
+        "class" : "View",
+        "attributes" : {
+          "border_width" : 1,
+          "flex" : "WH",
+          "alpha" : 0,
+          "frame" : "{{125, 207}, {100, 100}}",
+          "class" : "View",
+          "corner_radius" : 5,
+          "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "uuid" : "13D0E06C-88DC-46DD-86EB-680E01A74D31",
+          "name" : "scrv"
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {349, 513}}",
+    "class" : "View",
+    "attributes" : {
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "name" : "小组件设定",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]

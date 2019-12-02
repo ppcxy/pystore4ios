@@ -1,0 +1,130 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+          {
+            "nodes" : [
+
+            ],
+            "frame" : "{{0, 0}, {372, 474}}",
+            "class" : "TableView",
+            "attributes" : {
+              "uuid" : "0CCE00E0-2925-4933-8A6D-815602195B13",
+              "data_source_action" : "table_action",
+              "background_color" : "RGBA(1.0, 1.0, 1.0, 1.0)",
+              "frame" : "{{60, 60}, {200, 200}}",
+              "data_source_items" : "商店更新\n脚本更新\n消息通知",
+              "data_source_number_of_lines" : 1,
+              "custom_attributes" : "",
+              "data_source_move_enabled" : false,
+              "data_source_delete_enabled" : false,
+              "data_source_font_size" : 18,
+              "row_height" : 44,
+              "class" : "TableView",
+              "name" : "tv",
+              "flex" : "WH"
+            },
+            "selected" : true
+          },
+          {
+            "nodes" : [
+
+            ],
+            "frame" : "{{300, 6}, {51, 31}}",
+            "class" : "Switch",
+            "attributes" : {
+              "flex" : "W",
+              "action" : "switch_store_update_action",
+              "frame" : "{{135, 145}, {51, 31}}",
+              "class" : "Switch",
+              "uuid" : "E34D3D93-70F7-4836-BD93-4F3DACAD6EB0",
+              "value" : true,
+              "name" : "update_store"
+            },
+            "selected" : false
+          },
+          {
+            "nodes" : [
+
+            ],
+            "frame" : "{{300, 50}, {51, 31}}",
+            "class" : "Switch",
+            "attributes" : {
+              "flex" : "W",
+              "action" : "switch_script_update_action",
+              "frame" : "{{135, 225}, {51, 31}}",
+              "class" : "Switch",
+              "uuid" : "79C7D037-0B3F-4B32-AFBC-4BD3E1CD5B4F",
+              "value" : true,
+              "name" : "update_script"
+            },
+            "selected" : false
+          },
+          {
+            "nodes" : [
+
+            ],
+            "frame" : "{{300, 95}, {51, 31}}",
+            "class" : "Switch",
+            "attributes" : {
+              "flex" : "W",
+              "action" : "switch_notifications_action",
+              "frame" : "{{135, 225}, {51, 31}}",
+              "class" : "Switch",
+              "uuid" : "393C4712-2BA5-4330-9D68-1C8DA8710F5C",
+              "value" : true,
+              "name" : "notifications"
+            },
+            "selected" : false
+          }
+        ],
+        "frame" : "{{0, 6}, {372, 475}}",
+        "class" : "ScrollView",
+        "attributes" : {
+          "uuid" : "3276091B-7213-4A35-AED2-0C0C4CA701A7",
+          "frame" : "{{28, 79}, {320, 320}}",
+          "content_height" : 480,
+          "class" : "ScrollView",
+          "name" : "",
+          "content_width" : 320
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{18, 140}, {333, 84}}",
+        "class" : "Button",
+        "attributes" : {
+          "uuid" : "E36BB93A-8920-43E2-9127-202D7962818A",
+          "font_size" : 15,
+          "corner_radius" : 5,
+          "background_color" : "RGBA(0.807692,0.848178,1.000000,1.000000)",
+          "frame" : "{{149, 232}, {80, 32}}",
+          "border_color" : "RGBA(0.465587,0.076923,1.000000,1.000000)",
+          "border_width" : 1,
+          "title" : "设定小组件",
+          "action" : "pystore_action",
+          "class" : "Button",
+          "name" : "widget_setter",
+          "flex" : "WH"
+        },
+        "selected" : true
+      }
+    ],
+    "frame" : "{{0, 0}, {378, 495}}",
+    "class" : "View",
+    "attributes" : {
+      "flex" : "",
+      "custom_class" : "",
+      "enabled" : true,
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "name" : "pystore设定"
+    },
+    "selected" : false
+  }
+]
